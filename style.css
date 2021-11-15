@@ -1,0 +1,305 @@
+
+    body{
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        .row_table{
+        display: flex;
+        /* flex-wrap: wrap; */
+        }
+        .col-md-3_table{
+            width: 25%;
+        }
+        .col-md-8_table{
+            width: 66.666667%;
+        }
+        .col-md-9_table{
+            width: 75%;
+        }
+        .col-md-6_table{
+            width: 50%;
+        }
+        .mx-2_table{
+            margin-right: .5rem;
+            margin-left: .5rem;
+        }
+        .text-left_table{
+            text-align: left;
+        }
+        .text-center_table{
+            text-align: center;
+        }
+        h3{
+            font-size: 1.75rem;
+        }
+        h6{
+            font-size: 1rem;
+        }
+        h4{
+            font-size: 1.5rem;
+        }
+        /* strong{
+            font-weight: bolder;
+        } */
+        p{
+            margin-top: 0px;
+        }
+        h3,
+        h6,
+        h4{
+            margin: 0px;
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+        .mb-2_table{
+            margin-bottom:.5rem;
+        }
+        .mb-0{
+            margin-bottom: 0px;
+        }
+        .ml-2_table{
+            margin-left:.5rem;
+        }
+        .mb-1_table{
+            margin-bottom:.25rem;
+        }
+        .pt-0{
+            padding-top:0px !important;
+        }
+        .table_table{
+            width: 100%;
+        color: #212529;
+        border-collapse: collapse;
+        }
+        /* .table_table tbody tr:last-child td {
+        padding-bottom: 200px !important;
+    } */
+    .table_table tr .main_product{
+        text-align: left;
+    }
+    .table_table td{
+        border-bottom: 1px solid #e5e5e5;
+        font-size: 12px;
+        padding: .75rem .75rem 0rem .75rem;
+        text-align: right;
+    }
+    /* .barcode .table_table tbody tr:nth-child(1) td,
+    .table_table tbody tr:nth-child(1) td{
+        padding-top: 50px;
+    } */
+    .d-flex_table{
+        display: flex;
+    }
+    .justify-content-around_table{
+        justify-content: space-around;
+    }
+    .justify-content-end_table{
+        justify-content: end;
+    }
+    .justify-content-between_table{
+        justify-content: space-between;
+    }
+    .col-md-5_table{
+        width: 41.666667%;
+    }
+    .col-md-4_table{
+        width: 33.333333%;
+    }
+    .col-md-8_table{
+        padding: 5px
+    }
+    .col-md-4_table,
+    .col-md-12_table{
+        padding: 0px 15px;
+    }
+    .text-right_table{
+        text-align: right;
+    }
+    .container_table{
+        margin: 0px 105px;
+    }
+    .btn_table{
+        font-weight: 400;
+        color: #212529;
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        cursor: pointer;
+    }
+    .btn-success_table{
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+    .table_table thead tr th:nth-child(2){
+        width: 45%;
+    }
+    .table_table thead th{
+        text-transform: uppercase;
+    }
+    .table_table thead,
+    .table_main{
+        /* height: 500px;
+        max-height: 500px; */
+        border-bottom: 1px solid #000;
+    }
+
+
+.borderset{
+    margin: 20px 0px 0px 0px !important;
+    padding: 20px 0px 50px 10px;
+    border: 1px solid #000 !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.setpadding{
+    padding: 50px 14px 20px 14px !important;
+}
+.text-margin{
+    margin-bottom: .25rem !important;
+    text-align: left !important;
+}
+table tbody{
+    margin-top: 15px !important;
+}
+.table tr:nth-child(1) td{
+    padding-top: 50px !important;
+}
+.table td{
+    border-top: 0px solid #000 !important;
+    border-right: 1px solid #000 !important;
+    font-size: 12px !important;
+    padding-bottom: 0px !important;
+    padding-top: 10px !important;
+    text-align: center !important;
+}
+.table tbody tr{
+    border-left: 1px solid #000 !important;
+}
+.table tbody tr:last-child{
+    margin-bottom: 100px !important;
+}
+
+.border {
+    border: 1px solid #000!important;
+    padding: 10px;
+    /* border-left: 0px solid #000!important;
+    border-right: 0px solid #000!important; */
+}
+.table tr:last-child td {
+    padding-bottom: 200px !important;
+}
+.bordertop{
+    border-top: 1px solid #000 !important;
+}/* 
+.border td{
+    border: 1px solid #000;
+}
+tfoot{
+    margin-top: 100px !important;
+} */
+.footer .footerhedings{
+    border-top: 1px solid #000 !important;
+    padding: 20px 5px !important;
+    width: 15vw !important;
+    margin-top: 120px !important;
+}
+
+
+.header_main .text-center_table img{
+    width: 30%;
+}
+
+.set_justify_content.bordered{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 5px;
+}
+.set_justify_content{
+    justify-content: space-between;
+}
+.set_justify_content.set_padding{
+    padding: 30px 5px;
+}
+.justify_text_child{
+    font-size: 20px;
+}
+.footer_text .justify_text5_child{
+    font-size: 13px;
+}
+.footer_text .set_justify_content.set_padding div{
+    width: 50%;
+}
+.set_justify_content.set_padding div{
+    width: 24%;
+}
+ .justify_text5_child{
+    font-size: 20px;
+}
+.justify_text5{
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 0px;
+}
+.table_table tfoot div{
+    width: 30%;
+    float: right;
+}
+.set_justify_content .justify_text1{
+    color: #0095ff;
+    font-size: 45px;
+    margin: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.table_table tfoot{
+    margin-top: 50px;
+}
+
+.set_top_margin{
+    margin-top: 30px;
+    text-align: end;
+}
+.table_table tfoot td{
+    border-width: 0px;
+}
+.footer_text{
+    position: absolute;
+    width: 100%;
+    /* bottom: 0px; */
+}
+
+/* @page {
+    size: auto;
+ 
+  } */
+/* barcode */
+
+  page {
+    display: block;
+    margin: 0 auto;
+  }
+  page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+    position: relative;
+  }
+  @media print {
+    body, page {
+      margin: 0;
+      padding:0;
+      box-shadow: 0;
+    }
+  }
+
+
+
+  .main_div{
+      min-height: 600px;
+  }

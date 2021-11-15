@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVOICE</title>
+</head>
+<style>
+</style>
+
+<body>
+    <div class="container_table">
+        <br><br>
+        <div class="row_table">
+            <div class="col-md-6_table">
+                <!-- <h3>Purchase Order Invoice</h3> -->
+            </div>
+            <div class="col-md-6_table text-right_table">
+                <a value='Print' onclick='printDiv();' class="btn_table btn-success_table"><i class="fa fa-print"></i>
+                    Print</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="DivPrint">
+
+        <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+        <!-- <style media="print"></style> -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+        <!-- <link rel="stylesheet" href="new.css"> -->
+        <link rel="stylesheet" href="style.css">
+        <br>
+        <page size="A4">
+            <div class="container seta4size">
+                <div class="main_container">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <!-- <div class="header_main">
+                                    <div class="text-center_table">
+                                        <img src="logo.png" alt="">
+                                    </div>
+                                </div> -->
+                                <div class="set_justify_content row_table bordered">
+                                        <h1 class="justify_text1">Invoice</h1>
+                                        <div>
+                                        <p class="justify_text2"><strong>Name of Customer:</strong><br> John Smith <br> Carbonatic Solution </p>
+                                    </div>
+                                        <div>
+                                        <p class="justify_text3"><strong>Address:</strong><br> 28 Miegan Street, <br> 50132 USA </p>
+                                    </div>
+                                        <div>
+                                        <p class="justify_text4"><strong>Contact no:</strong><br> <strong>T</strong> (122)654654546 <br> <strong>W</strong> www.cabonate.com </p>
+                                    </div>
+                                </div>
+
+                                <div class="set_justify_content set_padding row_table">
+                                        <div>
+                                        <p class="justify_text5"><strong>Invoice #</strong></p>
+                                        <p class="justify_text5_child">#000127</p>
+                                    </div>
+                                        <div>
+                                        <p class="justify_text5"><strong>Date</strong></p>
+                                        <p class="justify_text5_child">28-10-2013</p>
+                                    </div>
+                                        <div>
+                                            <strong>
+                                        <p class="justify_text5"><strong>Payment Due</strong></p>
+                                        <p class="justify_text5_child">15-11-2013</p>
+                                    </strong>
+                                    </div>
+                                        <div>
+                                        <p class="justify_text5"><strong>Remarks</strong></p>
+                                        <p class="justify_text5_child">Plain Box</p>
+                                    </div>
+                                    
+                                </div>
+<div class="main_div">
+                        <div class="px-0 text-center_table table_main">
+                            <table class="table_table" cellspacing="0">
+                                <thead>
+                                    <tr style="text-align: right !important;">
+                                        <th class="main_product">S.No</th>
+                                        <th class="main_product">Product</th>
+                                        <th>Quantity</th>
+                                        <th>Unit Price</th>
+                                        <th>Discount</th>
+                                        <th>Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="main_product">1</td>
+                                        <td class="main_product"></td>
+                                        <td>1</td>
+                                        <td>$95.00</td>
+                                        <td></td>
+                                        <td>$95.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="main_product">2</td>
+                                        <td class="main_product"></td>
+                                        <td>1</td>
+                                        <td>$95.00</td>
+                                        <td></td>
+                                        <td>$95.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="main_product">3</td>
+                                        <td class="main_product"></td>
+                                        <td>1</td>
+                                        <td>$95.00</td>
+                                        <td></td>
+                                        <td>$95.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="main_product">4</td>
+                                        <td class="main_product"></td>
+                                        <td>1</td>
+                                        <td>$95.00</td>
+                                        <td></td>
+                                        <td>$95.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                            <div class="set_top_margin">
+                                        <div>
+                                            <p class="mb-0"><strong>Total</strong></p>
+                                            <p class="justify_text5_child">$5500</p>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0"><strong>Discount</strong></p>
+                                            <p class="justify_text5_child mb-0">20%</p>
+                                        </div>
+                            </div>
+                        </div>
+                            <div class="footer_text">
+                                <div class="set_justify_content set_padding row_table">
+                                    <div>
+                                        <p class="justify_text5"><strong>Notes</strong></p>
+                                        <p class="justify_text5_child">No Credit <br> Cash Only</p>
+                                    </div>
+                                        <div class="text-right_table">
+                                        <p class="justify_text5"><strong>Payment Due</strong></p>
+                                        <p class="justify_text_child">$6,000</p>
+                                    </div>
+                                
+                            </div>
+
+                            <!-- <div class="set_justify_content pt-0 set_padding row_table">
+                                <div>
+                                    <p class="justify_text5"><strong>Terms & Conditions</strong></p>
+                                    <p class="justify_text5_child">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, error sequi ex qui ipsam consectetur quidem! Mollitia facilis sed officiis eius tempore qui, ut, possimus expedita amet, velit fuga nihil.</p>
+                                </div>
+                                    <div class="text-right_table">
+                                    <p class="justify_text5"><strong>Payment Due</strong></p>
+                                    <p class="justify_text_child">$6,000</p>
+                                </div>
+                                  
+                        </div> -->
+
+
+                            <div class="set_justify_content row_table bordered">
+                                <div>
+                                <p class="justify_text2"><strong>Prepared By:</strong><br> John Smith <br> Carbonatic Solution </p>
+                            </div>
+                                <div>
+                                <p class="justify_text3"><strong>Address:</strong><br> 28 Miegan Street, <br> 50132 USA </p>
+                            </div>
+                                <div>
+                                <p class="justify_text4"><strong>Contact no:</strong><br> <strong>T</strong> (122)654654546 <br> <strong>W</strong> www.cabonate.com </p>
+                            </div>
+                            <h1 class="justify_text1"><strong>Thank You!</strong></h1>
+                        </div>
+                            </div>
+                    </div>
+                </div>
+
+                
+            </div>
+    </div>
+    </div>
+
+    <br><br>
+    </div>
+    </page>
+
+
+
+
+    <script>
+        function printDiv() {
+
+            var divToPrint = document.getElementById('DivPrint');
+
+            var newWin = window.open('', 'Print-Window');
+
+            newWin.document.open();
+
+            newWin.document.write('<html> <link rel="stylesheet" href="style.css"><body onload="window.print()">' + divToPrint.innerHTML + '</body></html>');
+
+            newWin.document.close();
+
+
+        }
+    </script>
+</body>
+
+</html>
